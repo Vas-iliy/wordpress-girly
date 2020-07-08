@@ -1,21 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Virtua - New Amazing HTML5 Template</title>
-    <link rel="stylesheet" href="../assets/css/components.css">
-    <link rel="stylesheet" href="../assets/css/icons.css">
-    <link rel="stylesheet" href="../assets/css/responsee.css">
-    <link rel="stylesheet" href="../assets/owl-carousel/owl.carousel.css">
-    <link rel="stylesheet" href="../assets/owl-carousel/owl.theme.css">
-    <link rel="stylesheet" href="../assets/css/lightcase.css">
-    <!-- CUSTOM STYLE -->
-    <link rel="stylesheet" href="../assets/css/template-style.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,700,900&amp;subset=latin-ext" rel="stylesheet">
-    <script type="text/javascript" src="../assets/js/jquery-1.8.3.min.js"></script>
-    <script type="text/javascript" src="../assets/js/jquery-ui.min.js"></script>
-</head>
+
+<? wp_head(); ?>
 
 <body class="size-1280">
 <!-- PREMIUM FEATURES BUTTON -->
@@ -26,15 +12,6 @@
     <nav class="background-transparent background-primary-dott full-width sticky">
         <div class="top-nav">
             <!-- mobile version logo -->
-            <div class="logo hide-l hide-xl hide-xxl">
-                <a href="index.html" class="logo">
-                    <!-- Logo White Version -->
-                    <img class="logo-white" src="../assets/img/logo.svg" alt="">
-                    <!-- Logo Dark Version -->
-                    <img class="logo-dark" src="../assets/img/logo-dark.svg" alt="">
-                </a>
-            </div>
-            <p class="nav-text"></p>
 
             <!-- left menu items -->
             <div class="top-nav left-menu">

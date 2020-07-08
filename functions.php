@@ -143,14 +143,25 @@ add_action( 'widgets_init', 'girly_widgets_init' );
  * Enqueue scripts and styles.
  */
 function girly_scripts() {
-	wp_enqueue_style( 'girly-style', get_stylesheet_uri(), array(), _S_VERSION );
-	wp_style_add_data( 'girly-style', 'rtl', 'replace' );
+	wp_enqueue_style( 'girly-style', get_stylesheet_uri());
+	wp_enqueue_style('components-css', get_template_directory_uri() . '/assets/css/components.css');
+	wp_enqueue_style('googleapis', 'https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,700,900&amp;subset=latin-ext');
+	wp_enqueue_style('icons-css', get_template_directory_uri() . '/assets/css/icons.css');
+	wp_enqueue_style('responsee-css', get_template_directory_uri() . '/assets/css/responsee.css');
+	wp_enqueue_style('owl-carousel-css', get_template_directory_uri() . '/assets/css/owl.carousel.css');
+	wp_enqueue_style('owl-theme-css', get_template_directory_uri() . '/assets/css/owl.theme.css');
+	wp_enqueue_style('lightcase-css', get_template_directory_uri() . '/assets/css/lightcase.css');
+	wp_enqueue_style('template-style-css', get_template_directory_uri() . '/assets/css/template-style.css');
 
-	wp_enqueue_script( 'girly-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
+	wp_deregister_script( 'jquery' );
+	wp_register_script( 'jquery', get_template_directory_uri() . '/assets/js/jquery-1.8.3.min.js');
+	wp_enqueue_script( 'jquery' );
 
-	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
-		wp_enqueue_script( 'comment-reply' );
-	}
+	wp_enqueue_script('jquery-ui', get_template_directory_uri() . '/assets/js/jquery-ui.min.js');
+	wp_enqueue_script('responsee-ui', get_template_directory_uri() . '/assets/js/responsee.js', array(), '', true);
+	wp_enqueue_script('owl-carousel-ui', get_template_directory_uri() . '/assets/js/owl-carousel.js', array(), '', true);
+	wp_enqueue_script('template-scripts-ui', get_template_directory_uri() . '/assets/js/template-scripts.js', array(), '', true);
+
 }
 add_action( 'wp_enqueue_scripts', 'girly_scripts' );
 
