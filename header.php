@@ -12,28 +12,35 @@
     <nav class="background-transparent background-primary-dott full-width sticky">
         <div class="top-nav">
             <!-- mobile version logo -->
-
             <!-- left menu items -->
             <div class="top-nav left-menu">
-                <ul class="right top-ul chevron">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about-us.html">About Us</a></li>
-                    <li><a href="services.html">Our Services</a></li>
-                </ul>
+                <? wp_nav_menu( [
+                    'theme_location'  => 'head',
+                    'container'       => 'div',
+                    'container_class' => 'right',
+                    'walker' => new Law_Header_Memu
+                ] ); ?>
             </div>
 
             <!-- logo -->
             <ul class="logo-menu">
-                <a href="index.html" class="logo">
+                <a href="<?=home_url() ?>" class="logo">
                     <!-- Logo White Version -->
-                    <img class="logo-white" src="../assets/img/logo.svg" alt="">
+                    <img class="logo-white" src="<?=get_template_directory_uri() ?>/assets/img/logo.svg" alt="">
                     <!-- Logo Dark Version -->
-                    <img class="logo-dark" src="../assets/img/logo-dark.svg" alt="">
+                    <img class="logo-dark" src="<?=get_template_directory_uri() ?>/assets/img/logo-dark.svg" alt="">
                 </a>
             </ul>
 
             <!-- right menu items -->
             <div class="top-nav right-menu">
+                <? wp_nav_menu( [
+                    'theme_location'  => 'headRight',
+                    'container'       => false,
+                    'walker' => new Law_Header_Memu
+                ] ); ?>
+            </div>
+           <!-- <div class="top-nav right-menu">
                 <ul class="top-ul chevron">
                     <li>
                         <a>Products</a>
@@ -45,7 +52,7 @@
                     <li><a href="gallery.html">Gallery</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
-            </div>
+            </div>-->
         </div>
     </nav>
 </header>

@@ -1,11 +1,6 @@
 <?php
-/**
- * girly functions and definitions
- *
- * @link https://developer.wordpress.org/themes/basics/theme-functions/
- *
- * @package girly
- */
+
+require_once get_template_directory() . '/Law_Header_Memu.php';
 
 if ( ! defined( '_S_VERSION' ) ) {
 	// Replace the version number of the theme on each release.
@@ -50,7 +45,10 @@ if ( ! function_exists( 'girly_setup' ) ) :
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus(
 			array(
-				'menu-1' => esc_html__( 'Primary', 'girly' ),
+				'head' => esc_html__( 'Head', 'girly' ),
+				'headRight' => esc_html__( 'Head Right', 'girly' ),
+				'foot' => esc_html__( 'Foot', 'girly' ),
+				'footRight' => esc_html__( 'Foot Right', 'girly' )
 			)
 		);
 
