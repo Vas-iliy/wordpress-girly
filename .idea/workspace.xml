@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c50542de-c37d-457f-a366-6dd3c6c25293" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/section/options.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/section/options.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/template-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/template-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/media-image/views/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/media-image/views/view.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +43,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\server\OpenServer\domains\wordpress\wordpress_currency\wp-content\themes\girly\framework-customizations\extensions\shortcodes\shortcodes" />
       <recent name="D:\server\OpenServer\domains\wordpress\wordpress_currency\wp-content\themes\girly" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -69,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594190601841</updated>
-      <workItem from="1594190603074" duration="15100000" />
+      <workItem from="1594190603074" duration="20098000" />
     </task>
     <servers />
   </component>

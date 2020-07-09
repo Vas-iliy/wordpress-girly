@@ -21,9 +21,11 @@ if ( ! empty( $width ) && ! empty( $height ) ) {
 
 $alt = get_post_meta($atts['image']['attachment_id'], '_wp_attachment_image_alt', true);
 
+
 $img_attributes = array(
 	'src' => $image,
-	'alt' => $alt ? $alt : $image
+	'alt' => $alt ? $alt : $image,
+	"class" => $class = $atts['image_class']
 );
 
 if(!empty($width)){
@@ -34,6 +36,10 @@ if(!empty($height)){
 	$img_attributes['height'] = $height;
 }
 
+if(!empty($atts['image_wrapper'])):?>
+	<a <?if(!empty($atts['image_link'])) echo "href='{$atts['image_link']}'"?>>
+<?endif;
+
 if ( empty( $atts['link'] ) ) {
 	echo fw_html_tag('img', $img_attributes);
 } else {
@@ -42,3 +48,7 @@ if ( empty( $atts['link'] ) ) {
 		'target' => $atts['target'],
 	), fw_html_tag('img',$img_attributes));
 }
+
+if(!empty($atts['list_wrapper'])):?>
+            </a>
+<?endif;
