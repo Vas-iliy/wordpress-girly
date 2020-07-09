@@ -27,12 +27,12 @@ $options = array(
 
 	//custom
 	'custom_id' => array(
-		'label' => __('Custom id', 'clean'),
+		'label' => __('Custom id', 'girly'),
 		'type'  => 'text',
 	),
 	'custom_class' => array(
-		'label' => __('Custom class', 'clean'),
+		'label' => __('Custom class', 'girly'),
 		'type'  => 'text',
-	),
+	)
 
 );
