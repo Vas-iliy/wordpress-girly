@@ -37,19 +37,6 @@
                     'container'       => false,
                 ] ); ?>
             </div>
-           <!-- <div class="top-nav right-menu">
-                <ul class="top-ul chevron">
-                    <li>
-                        <a>Products</a>
-                        <ul>
-                            <li><a>Product 1</a></li>
-                            <li><a>Product 2</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>-->
         </div>
     </nav>
 </header>
