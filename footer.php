@@ -1,13 +1,6 @@
 <footer>
-    <!-- Social -->
-    <div class="background-primary padding text-center">
-        <a href="/"><i class="icon-facebook_circle text-size-25 text-dark"></i></a>
-        <a href="/"><i class="icon-twitter_circle text-size-25 text-dark"></i></a>
-        <a href="/"><i class="icon-google_plus_circle text-size-25 text-dark"></i></a>
-        <a href="/"><i class="icon-instagram_circle text-size-25 text-dark"></i></a>
-        <a href="/"><i class="icon-linked_in_circle text-size-25 text-dark"></i></a>
-    </div>
-    <!-- Main Footer -->
+    <? get_sidebar('soc'); ?>
+    <? get_sidebar(); ?>
     <div class="background-dark">
         <div class="line">
             <hr class="break margin-top-bottom-0" style="border-color: #777;">

@@ -1,3 +1,7 @@
-<aside id="secondary" class="widget-area">
-	<?php dynamic_sidebar( 'sidebar' ); ?>
-</aside><!-- #secondary -->
+<section class="section background-dark">
+    <div class="line">
+        <div class="margin2x">
+	        <?php dynamic_sidebar( 'sidebar' ); ?>
+        </div>
+    </div>
+</section>

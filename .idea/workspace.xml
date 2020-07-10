@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c50542de-c37d-457f-a366-6dd3c6c25293" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/sidebar-soc.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/custom-header.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/custom-footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/jetpack.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/template-functions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/template-tags.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/custom-footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +31,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1eORM4pF9A3UTmUgNcid6ya8XWD" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -75,7 +78,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594190601841</updated>
-      <workItem from="1594190603074" duration="33245000" />
+      <workItem from="1594190603074" duration="40264000" />
     </task>
     <servers />
   </component>

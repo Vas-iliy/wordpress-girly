@@ -48,7 +48,8 @@ if ( ! function_exists( 'girly_setup' ) ) :
 				'head' => esc_html__( 'Head', 'girly' ),
 				'headRight' => esc_html__( 'Head Right', 'girly' ),
 				'foot' => esc_html__( 'Foot', 'girly' ),
-				'footRight' => esc_html__( 'Foot Right', 'girly' )
+				'footRight' => esc_html__( 'Foot Right', 'girly' ),
+				'contact' => esc_html__( 'Contact', 'girly' ),
 			)
 		);
 
@@ -127,7 +128,19 @@ function girly_widgets_init() {
 		array(
 			'name'          => esc_html__( 'Sidebar', 'girly' ),
 			'id'            => 'sidebar',
-			'description'   => esc_html__( 'Add widgets here.', 'girly' )
+			'description'   => esc_html__( 'Add widgets here.', 'girly' ),
+			'before_widget' => '<div class="s-12 m-6 l-3 xl-3">',
+			'after_widget'  => '</div>',
+			'before_title'  => '<h4 class="text-white text-strong">',
+			'after_title'   => '</h4>',
+		)
+	);
+
+	register_sidebar(
+		array(
+			'name'          => esc_html__( 'Sidebar Social', 'girly' ),
+			'id'            => 'sidebar-soc',
+			'description'   => esc_html__( 'Add widgets here.', 'girly' ),
 		)
 	);
 }
@@ -159,13 +172,6 @@ function girly_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'girly_scripts' );
 
-
-require get_template_directory() . '/inc/custom-footer.php';
-
-
-/**
- * Customizer additions.
- */
 require get_template_directory() . '/inc/customizer.php';
 
 
