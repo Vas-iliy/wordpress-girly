@@ -16,9 +16,7 @@
             <div class="top-nav left-menu">
                 <? wp_nav_menu( [
                     'theme_location'  => 'head',
-                    'container'       => 'div',
-                    'container_class' => 'right',
-                    'walker' => new Law_Header_Memu
+                    'container'       => false,
                 ] ); ?>
             </div>
 
@@ -37,7 +35,6 @@
                 <? wp_nav_menu( [
                     'theme_location'  => 'headRight',
                     'container'       => false,
-                    'walker' => new Law_Header_Memu
                 ] ); ?>
             </div>
            <!-- <div class="top-nav right-menu">
