@@ -3,7 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="c50542de-c37d-457f-a366-6dd3c6c25293" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/button/views/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/button/views/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-customizations/extensions/media/extensions/slider/extensions/flex-slider/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework-customizations/extensions/media/extensions/slider/extensions/icon-slider/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-customizations/extensions/media/extensions/slider/extensions/flex-slider/manifest.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework-customizations/extensions/media/extensions/slider/extensions/icon-slider/manifest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-customizations/extensions/media/extensions/slider/extensions/flex-slider/options/custom.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework-customizations/extensions/media/extensions/slider/extensions/icon-slider/options/custom.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-customizations/extensions/media/extensions/slider/extensions/flex-slider/static/images/preview.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/framework-customizations/extensions/media/extensions/slider/extensions/icon-slider/static/images/preview.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-customizations/extensions/media/extensions/slider/extensions/flex-slider/static/images/thumb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/framework-customizations/extensions/media/extensions/slider/extensions/icon-slider/static/images/thumb.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-customizations/extensions/media/extensions/slider/extensions/flex-slider/views/flex-slider.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework-customizations/extensions/media/extensions/slider/extensions/icon-slider/views/flex-slider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/girly/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/girly/services.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +38,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/framework-customizations/extensions/media/extensions/slider/extensions/icon-slider/options" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -43,11 +49,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\server\OpenServer\domains\wordpress\wordpress_currency\wp-content\themes\girly\framework-customizations\extensions\media\extensions\slider\extensions\icon-slider\options" />
+      <recent name="D:\server\OpenServer\domains\wordpress\wordpress_currency\wp-content\themes\girly\framework-customizations\extensions\media\extensions\slider\extensions" />
       <recent name="D:\server\OpenServer\domains\wordpress\wordpress_currency\wp-content\themes\girly\framework-customizations\extensions\shortcodes\shortcodes" />
       <recent name="D:\server\OpenServer\domains\wordpress\wordpress_currency\wp-content\themes\girly\framework-customizations\extensions\shortcodes\shortcodes\hr\static\img" />
       <recent name="D:\server\OpenServer\domains\wordpress\wordpress_currency\wp-content\themes\girly\framework-customizations\extensions\shortcodes\shortcodes\text\static\img" />
-      <recent name="D:\server\OpenServer\domains\wordpress\wordpress_currency\wp-content\themes\girly\inc" />
-      <recent name="D:\server\OpenServer\domains\wordpress\wordpress_currency\wp-content\themes\girly" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\server\OpenServer\domains\wordpress\wordpress_currency\wp-content\themes\girly\assets" />
@@ -75,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594190601841</updated>
-      <workItem from="1594190603074" duration="48631000" />
+      <workItem from="1594190603074" duration="51845000" />
     </task>
     <servers />
   </component>
