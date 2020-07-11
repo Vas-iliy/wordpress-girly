@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c50542de-c37d-457f-a366-6dd3c6c25293" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/iframe/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/iframe/options.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/iframe/static.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/iframe/static/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/iframe/static/img/page_builder.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/iframe/views/view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/iframe/options.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/iframe/options.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/iframe/views/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/iframe/views/view.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594190601841</updated>
-      <workItem from="1594190603074" duration="62986000" />
+      <workItem from="1594190603074" duration="63264000" />
     </task>
     <servers />
   </component>
