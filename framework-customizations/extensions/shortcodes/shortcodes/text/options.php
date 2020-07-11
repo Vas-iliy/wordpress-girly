@@ -4,7 +4,7 @@
 
 $options = array(
 	'content'    => array(
-		'type'  => 'text',
+		'type'  => 'textarea',
 		'label' => __( 'Text Content', 'fw' ),
 		'desc'  => __( 'Text Content', 'fw' ),
 	),

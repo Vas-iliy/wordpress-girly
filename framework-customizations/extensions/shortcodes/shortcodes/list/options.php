@@ -3,11 +3,6 @@
 }
 
 $options = array(
-	'span_icon'       => array(
-		'type' => 'icon',
-		'label' => __( 'List Icon', 'fw' )
-	),
-
 	'list_wrapper'       => array(
 		'type' => 'checkbox',
 		'label' => __( 'Wrap in link', 'fw' ),
