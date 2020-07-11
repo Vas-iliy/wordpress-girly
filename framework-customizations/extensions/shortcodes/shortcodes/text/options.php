@@ -5,20 +5,20 @@
 $options = array(
 	'content'    => array(
 		'type'  => 'text',
-		'label' => __( 'Span Content', 'fw' ),
-		'desc'  => __( 'Span Content', 'fw' ),
+		'label' => __( 'Text Content', 'fw' ),
+		'desc'  => __( 'Text Content', 'fw' ),
 	),
 
 	'text_class'    => array(
 		'type'  => 'text',
-		'label' => __( 'Span Class', 'fw' ),
-		'desc'  => __( 'Span Class', 'fw' ),
+		'label' => __( 'Text Class', 'fw' ),
+		'desc'  => __( 'Text Class', 'fw' ),
 	),
 
 	'text_id'    => array(
 		'type'  => 'text',
-		'label' => __( 'Span ID', 'fw' ),
-		'desc'  => __( 'Span ID', 'fw' ),
+		'label' => __( 'Text ID', 'fw' ),
+		'desc'  => __( 'Text ID', 'fw' ),
 	),
 
 	'text_data_attrs'    => array(
