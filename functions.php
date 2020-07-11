@@ -156,7 +156,6 @@ function girly_scripts() {
 	wp_enqueue_style('owl-carousel-css', get_template_directory_uri() . '/assets/css/owl.carousel.css');
 	wp_enqueue_style('owl-theme-css', get_template_directory_uri() . '/assets/css/owl.theme.css');
 	wp_enqueue_style('lightcase-css', get_template_directory_uri() . '/assets/css/lightcase.css');
-	wp_enqueue_style('flexslider-css', get_template_directory_uri() . '/assets/css/flexslider.css');
 	wp_enqueue_style('template-style-css', get_template_directory_uri() . '/assets/css/template-style.css');
 
 	wp_deregister_script( 'jquery' );
