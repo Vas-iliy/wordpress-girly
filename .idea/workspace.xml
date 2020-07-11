@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c50542de-c37d-457f-a366-6dd3c6c25293" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/hr/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/hr/options.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/hr/static.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/hr/static/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/hr/static/img/page_builder.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/hr/views/view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/button/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/button/options.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/button/static.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/button/static/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/button/static/img/page_builder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/button/views/view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/text/options.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/text/options.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +37,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/hr/static/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -49,8 +48,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\server\OpenServer\domains\wordpress\wordpress_currency\wp-content\themes\girly\framework-customizations\extensions\shortcodes\shortcodes\hr\static\img" />
       <recent name="D:\server\OpenServer\domains\wordpress\wordpress_currency\wp-content\themes\girly\framework-customizations\extensions\shortcodes\shortcodes" />
+      <recent name="D:\server\OpenServer\domains\wordpress\wordpress_currency\wp-content\themes\girly\framework-customizations\extensions\shortcodes\shortcodes\hr\static\img" />
       <recent name="D:\server\OpenServer\domains\wordpress\wordpress_currency\wp-content\themes\girly\framework-customizations\extensions\shortcodes\shortcodes\text\static\img" />
       <recent name="D:\server\OpenServer\domains\wordpress\wordpress_currency\wp-content\themes\girly\inc" />
       <recent name="D:\server\OpenServer\domains\wordpress\wordpress_currency\wp-content\themes\girly" />
@@ -81,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594190601841</updated>
-      <workItem from="1594190603074" duration="46935000" />
+      <workItem from="1594190603074" duration="48026000" />
     </task>
     <servers />
   </component>
