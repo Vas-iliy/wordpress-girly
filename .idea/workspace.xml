@@ -2,16 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c50542de-c37d-457f-a366-6dd3c6c25293" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/framework-customizations/extensions/media/extensions/slider/extensions/icon-slider/static/css/images/bx_loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework-customizations/extensions/media/extensions/slider/extensions/icon-slider/static/css/images/controls.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework-customizations/extensions/media/extensions/slider/extensions/icon-slider/static/css/jquery.bxslider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework-customizations/extensions/media/extensions/slider/extensions/icon-slider/static/js/bxslider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework-customizations/extensions/media/extensions/slider/extensions/icon-slider/static/js/jquery.easing.1.3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework-customizations/extensions/media/extensions/slider/extensions/icon-slider/static/js/jquery.fitvids.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/end/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/end/static.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/end/static/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/end/static/img/page_builder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/end/views/view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/start/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/start/options.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/start/static.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/start/static/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/start/static/img/page_builder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/start/views/view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/flexslider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework-customizations/extensions/media/extensions/slider/extensions/icon-slider/views/icon-slider.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework-customizations/extensions/media/extensions/slider/extensions/icon-slider/views/icon-slider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +42,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/framework-customizations/extensions/media/extensions/slider/extensions/icon-slider/static" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/end/static/img" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -51,11 +53,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\server\OpenServer\domains\wordpress\wordpress_currency\wp-content\themes\girly\framework-customizations\extensions\shortcodes\shortcodes\end\static\img" />
+      <recent name="D:\server\OpenServer\domains\wordpress\wordpress_currency\wp-content\themes\girly\framework-customizations\extensions\shortcodes\shortcodes" />
+      <recent name="D:\server\OpenServer\domains\wordpress\wordpress_currency\wp-content\themes\girly\framework-customizations\extensions\shortcodes\shortcodes\start\static\img" />
       <recent name="D:\server\OpenServer\domains\wordpress\wordpress_currency\wp-content\themes\girly\framework-customizations\extensions\media\extensions\slider\extensions\icon-slider\static" />
       <recent name="D:\server\OpenServer\domains\wordpress\wordpress_currency\wp-content\themes\girly\framework-customizations\extensions\media\extensions\slider\extensions" />
-      <recent name="D:\server\OpenServer\domains\wordpress\wordpress_currency\wp-content\themes\girly\assets\css" />
-      <recent name="D:\server\OpenServer\domains\wordpress\wordpress_currency\wp-content\themes\girly\framework-customizations\extensions\media\extensions\slider\extensions\icon-slider\options" />
-      <recent name="D:\server\OpenServer\domains\wordpress\wordpress_currency\wp-content\themes\girly\framework-customizations\extensions\shortcodes\shortcodes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\server\OpenServer\domains\wordpress\wordpress_currency\wp-content\themes\girly\assets" />
@@ -83,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594190601841</updated>
-      <workItem from="1594190603074" duration="55423000" />
+      <workItem from="1594190603074" duration="60192000" />
     </task>
     <servers />
   </component>
