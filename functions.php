@@ -171,6 +171,16 @@ function girly_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'girly_scripts' );
 
+if (in_array('woocommerce/woocommerce.php', apply_filters('active_plugins',
+	get_option('active_plugins')))) {
+
+	function mytheme_add_woocommerce_support() {
+		add_theme_support( 'woocommerce' );
+	}
+	add_action( 'after_setup_theme', 'mytheme_add_woocommerce_support' );
+}
+
+
 require get_template_directory() . '/inc/customizer.php';
 
 
