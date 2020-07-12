@@ -166,6 +166,7 @@ function girly_scripts() {
 	wp_enqueue_script('responsee-ui', get_template_directory_uri() . '/assets/js/responsee.js', array(), '', true);
 	wp_enqueue_script('owl-carousel-ui', get_template_directory_uri() . '/assets/js/owl-carousel.js', array(), '', true);
 	wp_enqueue_script('template-scripts-ui', get_template_directory_uri() . '/assets/js/template-scripts.js', array(), '', true);
+	wp_localize_script('responsee-ui', 'lawData', array('themePath' => get_template_directory_uri()));
 
 }
 add_action( 'wp_enqueue_scripts', 'girly_scripts' );

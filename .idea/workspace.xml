@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c50542de-c37d-457f-a366-6dd3c6c25293" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/iframe/options.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/iframe/options.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/iframe/views/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/iframe/views/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/responsee.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/responsee.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +34,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/iframe/static/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../wordpress_test/wp-content/themes/law" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -75,7 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594190601841</updated>
-      <workItem from="1594190603074" duration="63264000" />
+      <workItem from="1594190603074" duration="66959000" />
     </task>
     <servers />
   </component>
