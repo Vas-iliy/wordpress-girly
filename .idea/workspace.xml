@@ -2,13 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c50542de-c37d-457f-a366-6dd3c6c25293" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/framework-customizations/extensions/media/extensions/slider/extensions/phone-slider/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-customizations/extensions/media/extensions/slider/extensions/phone-slider/manifest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-customizations/extensions/media/extensions/slider/extensions/phone-slider/options/custom.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-customizations/extensions/media/extensions/slider/extensions/phone-slider/static/css/images/bx_loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-customizations/extensions/media/extensions/slider/extensions/phone-slider/static/css/images/controls.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-customizations/extensions/media/extensions/slider/extensions/phone-slider/static/css/jquery.bxslider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-customizations/extensions/media/extensions/slider/extensions/phone-slider/static/images/preview.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-customizations/extensions/media/extensions/slider/extensions/phone-slider/static/images/thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-customizations/extensions/media/extensions/slider/extensions/phone-slider/static/js/bxslider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-customizations/extensions/media/extensions/slider/extensions/phone-slider/static/js/jquery.easing.1.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-customizations/extensions/media/extensions/slider/extensions/phone-slider/static/js/jquery.fitvids.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-customizations/extensions/media/extensions/slider/extensions/phone-slider/views/phone-slider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/span/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/span/static/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/girly/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/girly/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +50,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../wordpress_test/wp-content/themes/law/framework-customizations/extensions/media/extensions/slider/extensions/flex-slider/views/flex-slider.php" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -61,11 +67,11 @@
       <recent name="D:\server\OpenServer\domains\wordpress\wordpress_currency\wp-content\themes\girly\assets" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\server\OpenServer\domains\wordpress\wordpress_currency\wp-content\themes\girly\framework-customizations\extensions\media\extensions\slider\extensions" />
       <recent name="D:\server\OpenServer\domains\wordpress\wordpress_currency\wp-content\themes\girly\assets" />
       <recent name="D:\server\OpenServer\domains\wordpress\wordpress_currency\wp-content\themes\girly" />
       <recent name="D:\server\OpenServer\domains\wordpress\wordpress_currency\wp-content\themes\girly\woocommerce" />
       <recent name="D:\server\OpenServer\domains\wordpress\wordpress_currency\wp-content\themes\girly\framework-customizations\extensions\shortcodes\shortcodes\iframe\static\img" />
-      <recent name="D:\server\OpenServer\domains\wordpress\wordpress_currency\wp-content\themes\girly\framework-customizations\extensions\shortcodes\shortcodes" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -91,7 +97,7 @@
       <option name="presentableId" value="Default" />
       <updated>1594190601841</updated>
       <workItem from="1594190603074" duration="71286000" />
-      <workItem from="1594618104572" duration="23452000" />
+      <workItem from="1594618104572" duration="26495000" />
     </task>
     <servers />
   </component>
