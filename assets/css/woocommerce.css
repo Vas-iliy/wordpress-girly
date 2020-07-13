@@ -121,6 +121,7 @@ ul.products li.type-product .hover-cart h2.woocommerce-loop-product__title {
 }
 ul.products li.type-product .hover-cart span.price {
     margin-top: 10px;
+    text-align: center;
 }
 ul.products li.type-product .hover-cart .descr {
     text-align: center;
