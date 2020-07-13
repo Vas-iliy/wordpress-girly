@@ -157,6 +157,7 @@ function girly_scripts() {
 	wp_enqueue_style('owl-theme-css', get_template_directory_uri() . '/assets/css/owl.theme.css');
 	wp_enqueue_style('lightcase-css', get_template_directory_uri() . '/assets/css/lightcase.css');
 	wp_enqueue_style('template-style-css', get_template_directory_uri() . '/assets/css/template-style.css');
+	wp_enqueue_style('woocommerce-css', get_template_directory_uri() . '/assets/css/woocommerce.css');
 
 	wp_deregister_script( 'jquery' );
 	wp_register_script( 'jquery', get_template_directory_uri() . '/assets/js/jquery-1.8.3.min.js');
@@ -179,6 +180,19 @@ if (in_array('woocommerce/woocommerce.php', apply_filters('active_plugins',
 	}
 	add_action( 'after_setup_theme', 'mytheme_add_woocommerce_support' );
 }
+
+/**
+ * Rename "home" in breadcrumb
+ */
+add_filter( 'woocommerce_breadcrumb_defaults', 'wcc_change_breadcrumb_home_text' );
+function wcc_change_breadcrumb_home_text( $defaults ) {
+	// Change the breadcrumb home text from 'Home' to 'Apartment'
+	$defaults['home'] = '';
+	$defaults['delimiter'] = '';
+
+	return $defaults;
+}
+add_filter( 'woocommerce_breadcrumb_defaults', 'wcc_change_breadcrumb_home_text', 20 );
 
 
 require get_template_directory() . '/inc/customizer.php';
