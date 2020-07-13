@@ -46,16 +46,22 @@ do_action( 'woocommerce_before_main_content' );
 </header>
 <?php
 if ( woocommerce_product_loop() ) {
-
-	/**
-	 * Hook: woocommerce_before_shop_loop.
-	 *
-	 * @hooked woocommerce_output_all_notices - 10
-	 * @hooked woocommerce_result_count - 20
-	 * @hooked woocommerce_catalog_ordering - 30
-	 */
-	do_action( 'woocommerce_before_shop_loop' );
-
+    ?>
+    <div class="site-main-line">
+        <div class="site-main-line-block">
+        <?php
+            /**
+             * Hook: woocommerce_before_shop_loop.
+             *
+             * @hooked woocommerce_output_all_notices - 10
+             * @hooked woocommerce_result_count - 20
+             * @hooked woocommerce_catalog_ordering - 30
+             */
+            do_action( 'woocommerce_before_shop_loop' );
+        ?>
+        </div>
+    </div>
+<?php
 	woocommerce_product_loop_start();
 
 	if ( wc_get_loop_prop( 'total' ) ) {
