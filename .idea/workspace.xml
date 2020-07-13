@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c50542de-c37d-457f-a366-6dd3c6c25293" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/woocommerce.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/woocommerce.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/woocommerce/single-product.php" beforeDir="false" afterPath="$PROJECT_DIR$/woocommerce/single-product.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1594190601841</updated>
       <workItem from="1594190603074" duration="71286000" />
-      <workItem from="1594618104572" duration="15417000" />
+      <workItem from="1594618104572" duration="16464000" />
     </task>
     <servers />
   </component>

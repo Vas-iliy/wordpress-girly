@@ -6,11 +6,10 @@
     padding-top: 30px;
     font-size: 14px;
     font-weight: 400;
-    text-align: center;
-    color: #000000;
+    color: #262626;
 }
 .woocommerce-breadcrumb a {
-    color: #000000;
+    color: #262626;
 }
 header.woocommerce-products-header {
     background: none;
@@ -137,5 +136,11 @@ ul.products li.type-product .hover-cart a.woocommerce-loop-product__link {
     margin: 0;
 }
 
-
+.woocommerce-products-header .main {
+    display: flex;
+    justify-content: center;
+}
+.woocommerce-products-header .main .main-block {
+    width: 960px;
+}
 

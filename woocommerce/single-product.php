@@ -20,6 +20,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 get_header( 'shop' ); ?>
+	<header class="woocommerce-products-header">
+		<div class="main">
+			<div class="main-block">
+
 
 	<?php
 		/**
@@ -57,6 +61,9 @@ get_header( 'shop' ); ?>
 	?>
 
 <?php
-get_footer( 'shop' );
+get_footer( 'shop' ); ?>
+			</div>
+		</div>
+	</header>
 
 /* Omit closing PHP tag at the end of PHP files to avoid "headers already sent" issues. */
