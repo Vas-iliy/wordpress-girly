@@ -4,8 +4,6 @@
 <? wp_head(); ?>
 
 <body class="size-1280">
-<!-- PREMIUM FEATURES BUTTON -->
-<a target="_blank" class="hide-s" href="../template/virtua-premium-responsive-business-template/" style="position:fixed;top:120px;right:-14px;z-index:10;"><img src="../assets/img/premium-features.png" alt=""></a>
 <!-- HEADER -->
 <header role="banner" class="position-absolute">
     <!-- Top Navigation -->

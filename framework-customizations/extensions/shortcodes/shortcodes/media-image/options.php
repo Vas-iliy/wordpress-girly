@@ -9,17 +9,6 @@ $options = array(
 		'desc'  => __( 'Either upload a new, or choose an existing image from your media library', 'fw' )
 	),
 
-	'image_wrapper'       => array(
-		'type' => 'checkbox',
-		'label' => __( 'Wrap in link', 'fw' ),
-		'text' => '',
-	),
-
-	'image_link'       => array(
-		'type' => 'text',
-		'label' => __( 'Link', 'fw' )
-	),
-
 	'size'             => array(
 		'type'    => 'group',
 		'options' => array(

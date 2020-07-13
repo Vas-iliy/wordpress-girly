@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c50542de-c37d-457f-a366-6dd3c6c25293" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/woocommerce/global/sidebar.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/woocommerce.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/woocommerce.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/span/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/framework-customizations/extensions/shortcodes/shortcodes/span/static/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/girly/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/girly/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +44,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/woocommerce" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -54,14 +57,15 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\server\OpenServer\domains\wordpress\wordpress_currency\wp-content\themes\girly\assets\css" />
       <recent name="D:\server\OpenServer\domains\wordpress\wordpress_currency\wp-content\themes\girly\assets" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\server\OpenServer\domains\wordpress\wordpress_currency\wp-content\themes\girly\assets" />
+      <recent name="D:\server\OpenServer\domains\wordpress\wordpress_currency\wp-content\themes\girly" />
       <recent name="D:\server\OpenServer\domains\wordpress\wordpress_currency\wp-content\themes\girly\woocommerce" />
       <recent name="D:\server\OpenServer\domains\wordpress\wordpress_currency\wp-content\themes\girly\framework-customizations\extensions\shortcodes\shortcodes\iframe\static\img" />
       <recent name="D:\server\OpenServer\domains\wordpress\wordpress_currency\wp-content\themes\girly\framework-customizations\extensions\shortcodes\shortcodes" />
-      <recent name="D:\server\OpenServer\domains\wordpress\wordpress_currency\wp-content\themes\girly\framework-customizations\extensions\shortcodes\shortcodes\end\static\img" />
-      <recent name="D:\server\OpenServer\domains\wordpress\wordpress_currency\wp-content\themes\girly\framework-customizations\extensions\shortcodes\shortcodes\start\static\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -87,7 +91,7 @@
       <option name="presentableId" value="Default" />
       <updated>1594190601841</updated>
       <workItem from="1594190603074" duration="71286000" />
-      <workItem from="1594618104572" duration="17810000" />
+      <workItem from="1594618104572" duration="23452000" />
     </task>
     <servers />
   </component>
