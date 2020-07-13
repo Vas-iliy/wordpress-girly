@@ -48,9 +48,12 @@ ul.products li.type-product span.price ins span.woocommerce-Price-amount {
 }
 li.product a.add_to_cart_button,
 li.product a.product_type_simple {
-    display: none;
+   background-color: #11ABB0;
 }
-
+ul.products li.type-product a.woocommerce-loop-product__link img {
+    width: 100%;
+    height: 233px;
+}
 .site-main-line {
     margin-bottom: 50px;
     background-color: #ededed;
@@ -78,5 +81,60 @@ li.product a.product_type_simple {
     align-items: center;
     margin: auto;
 }
+
+.hover-cart {
+    display: none;
+}
+ul.products li.type-product {
+    position: relative;
+}
+ul.products li.type-product:hover .hover-cart {
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    position: absolute;
+    padding: 30px 30px 10px 30px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    background-color: #ffffff;
+    border-top: 2px solid #11ABB0;
+    box-sizing: border-box;
+    margin-top: -10px;
+    margin-left: -10px;
+    box-shadow: 20px 20px 104px -10px;
+    z-index: 9999;
+}
+ul.products li.type-product .hover-cart .add_to_cart_button {
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+}
+ul.products li.type-product .hover-cart h2.woocommerce-loop-product__title {
+    margin-top: 20px;
+}
+ul.products li.type-product .hover-cart span.price {
+    margin-top: 10px;
+}
+ul.products li.type-product .hover-cart .descr {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 60px;
+    font-size: 16px;
+}
+ul.products li.type-product .hover-cart .add_to_cart_button:hover {
+    color: #ffffff;
+}
+ul.products li.type-product .hover-cart a.woocommerce-loop-product__link {
+    height: auto;
+    margin: 0;
+}
+
 
 
