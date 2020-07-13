@@ -37,14 +37,14 @@ ul.products li.type-product {
     width: 25%;
     border: 1px solid currentColor;
 }
-ul.products li.type-product a.woocommerce-loop-product__link span.onsale{
+ul.products li.type-product span.onsale{
     display: none;
 }
-ul.products li.type-product a.woocommerce-loop-product__link h2.woocommerce-loop-product__title {
+ul.products li.product h2.woocommerce-loop-product__title {
     font-weight: bold;
 }
-ul.products li.type-product a.woocommerce-loop-product__link span.price ins span.woocommerce-Price-amount {
-    background-color: #9BB800;
+ul.products li.type-product span.price ins span.woocommerce-Price-amount {
+    background-color: chartreuse;
 }
 li.product a.add_to_cart_button,
 li.product a.product_type_simple {
