@@ -137,10 +137,7 @@ ul.products li.type-product .hover-cart a.woocommerce-loop-product__link {
 }
 
 .woocommerce-products-header .main {
-    display: flex;
-    justify-content: center;
 }
 .woocommerce-products-header .main .main-block {
-    width: 960px;
 }
 
